@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Chivo:ital,wght@0,100..900;1,100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Great+Vibes&family=Happy+Monkey&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Permanent+Marker&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Varela+Round&display=swap");
+
+.hero_section {
+
+  height: 100vh;
+
+  text-align: center;
+
+  background-color: #000;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+
+  color: #fff;
+
+  position: relative;
+
+  overflow: hidden;
+
+}
+
+
+.hero_section::before {
+
+  position: absolute;
+
+  content: '';
+
+  height: 0;
+
+  width: 200%;
+
+  box-shadow: 0 0 800px 25px #008be1,
+              0 0 700px 26px #49066E,
+              0 0 900px 28px #008be1,
+              0 0 1000px 30px #008be1;
+
+  bottom: 110%;
+
+  opacity: 0.3;
+
+  right: 80%;
+
+ }
+
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(79, 79, 79, 0.18) 1.2px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(79, 79, 79, 0.18) 1.2px, transparent 1px);
+  background-size: 14px 24px;
+  mask-image: radial-gradient(
+    ellipse 60% 70% at 50% 0%,
+    black 70%,
+    transparent 100%
+  );
+  -webkit-mask-image: radial-gradient(
+    ellipse 60% 50% at 50% 0%,
+    black 70%,
+    transparent 100%
+  );
+}
+.hero_container {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  gap: 20px;
+
+  margin-top: -40px;
+
+  margin-top: 50px;
+
+}
+
+
+
+.hero_title {
+
+  overflow-y: hidden;
+
+  font-size: 5rem;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  font-family: 'Inter', sans-serif;
+
+  position: relative;
+
+  height: 120px;
+
+}
+
+.hero_title::before {
+  content: '';
+  opacity: 1;
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0;
+  width: 100%;
+  height: 4.5px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #008be1,
+    transparent
+  );
+}
+
