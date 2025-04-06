@@ -62,14 +62,13 @@
 
   box-shadow: 0 0 800px 25px #008be1,
               0 0 700px 26px #49066E,
-              0 0 900px 28px #008be1,
-              0 0 1000px 30px #008be1;
+              0 0 900px 28px #008be1;
 
   opacity: 0.2;
 
   left: 90%;
 
-  margin-bottom: 50px;
+  margin-bottom: 20%;
 
  }
 
@@ -157,10 +156,10 @@
 
   width: 100%;
 
-  height: 4.5px;
+  height: 5px;
 
   background: linear-gradient( to right, transparent, #008be1, transparent );
-  
+
 }
 
 
