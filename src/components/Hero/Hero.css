@@ -6,7 +6,7 @@
 
   text-align: center;
 
-  background-color: #000;
+  background: #0c0c0c;
 
   display: flex;
 
@@ -20,7 +20,7 @@
 
   position: relative;
 
-  overflow: hidden;
+
 
 }
 
@@ -101,8 +101,14 @@
     transparent 100%
   );
 
+  pointer-events: none;
+
+  z-index: 0;
+
 }
 .hero_container {
+
+  margin-bottom: 360px;
 
   font-family: monospace;
 
@@ -119,6 +125,8 @@
   margin-top: -40px;
 
   margin-top: 50px;
+  
+  z-index: 1;
 
 }
 
@@ -179,3 +187,29 @@
 
 
 
+
+.button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 30px;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: monospace;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+
+  cursor: pointer;
+
+  background: rgba(255, 255, 255, 0.1);
+
+}
