@@ -95,11 +95,11 @@ nav {
 
     transition: 0.4s ease;
 
-    z-index: 100;
-
 }
 
 nav a {
+
+    display: inline-block;
 
     text-decoration: none;
 
@@ -109,7 +109,7 @@ nav a {
 
     color: #c9c9c9fc;
 
-    transition: color 0.5s ease, transform 0.3s ease;
+    transition: 0.3s;
 
     cursor: pointer;
 
@@ -117,7 +117,7 @@ nav a {
 
 nav a:hover {
 
-    color: #fff;
+    color: #008be1;
 
 }
 

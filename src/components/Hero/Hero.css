@@ -20,6 +20,8 @@
 
   position: relative;
 
+  overflow-y: hidden;
+
 
 
 }
@@ -105,6 +107,8 @@
 
   z-index: 0;
 
+  overflow-y: hidden;
+
 }
 .hero_container {
 
@@ -127,6 +131,8 @@
   margin-top: 50px;
   
   z-index: 1;
+
+  overflow-y: hidden;
 
 }
 
@@ -182,7 +188,7 @@
 
   width: 60%;
 
-} 
+}
 
 
 
@@ -217,7 +223,7 @@
   text-transform: uppercase;
 
   transition: 0.3s ease;
-  
+
 }
 
 .button:hover {
@@ -227,3 +233,4 @@
   background: rgba(255, 255, 255, 0.1);
 
 }
+
