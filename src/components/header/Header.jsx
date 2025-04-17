@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Header.css";
 import { GrLinkedin } from "react-icons/gr";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   useEffect(() => {
@@ -21,7 +21,7 @@ const Navbar = () => {
           Home
         </a>
         <Link
-          to="about"
+          to="/about"
           smooth={true}
           duration={500}
           data-aos="fade-left"
@@ -30,7 +30,7 @@ const Navbar = () => {
           About
         </Link>
         <Link
-          to="skills"
+          to="/courses"
           smooth={true}
           duration={500}
           data-aos="fade-left"
@@ -40,7 +40,7 @@ const Navbar = () => {
         </Link>
 
         <Link
-          to="contact"
+          to="/contact"
           smooth={true}
           duration={500}
           data-aos="fade-left"

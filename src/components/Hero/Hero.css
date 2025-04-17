@@ -2,8 +2,6 @@
 
 .hero_section {
 
-  height: 100vh;
-
   text-align: center;
 
   background: #0c0c0c;
@@ -14,6 +12,8 @@
 
   align-items: center;
 
+  flex-wrap: wrap;
+
   padding: 20px;
 
   color: #fff;
@@ -22,9 +22,11 @@
 
   overflow-y: hidden;
 
-
+  height: auto;
 
 }
+
+
 
 
 .hero_section::before {
@@ -223,6 +225,8 @@
   text-transform: uppercase;
 
   transition: 0.3s ease;
+
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 
 }
 

@@ -1,0 +1,130 @@
+
+
+.parent {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 100%;
+
+    height: 400px;
+
+    position: absolute;
+
+    /* background: red; */
+
+    margin-top: 350px;
+
+}
+
+
+.child1 {
+
+    height: 300px;
+
+    width: 400px;
+
+    background: rgba( 255, 255, 255, .05 );
+
+    border: 0.5px solid rgba( 255, 255, 255, 0.2 );
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(20px);
+
+    overflow: hidden;
+
+    transition: all 0.3s ease;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 30px;
+
+    font-weight: 900;
+
+
+}
+
+
+.child1:hover,
+.child2:hover,
+.child3:hover {
+    border-color: rgba(0, 98, 255, 0.632); /* blue-500/40 */
+    box-shadow: 0 25px 50px -12px rgba(59, 131, 246, 0.395); /* shadow-2xl blue-500/20 */
+  }
+
+
+.child2 {
+
+    height: 300px;
+
+    width: 400px;
+
+    background: rgba( 255, 255, 255, .05 );
+
+    border: 0.5px solid rgba( 255, 255, 255, 0.2 );
+
+    border-radius: 10px;
+
+    margin-left: 25px;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(20px); /* Tailwind's xl blur is around 20px */
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 30px;
+
+    font-weight: 900;
+
+}
+
+.child3 {
+
+    height: 300px;
+
+    width: 400px;
+
+    margin-left: 25px;
+
+    background: rgba( 255, 255, 255, .05 );
+
+    border: 0.5px solid rgba( 255, 255, 255, 0.2 );
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(20px); /* Tailwind's xl blur is around 20px */
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 30px;
+
+    font-weight: 900;
+
+}
