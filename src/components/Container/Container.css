@@ -16,9 +16,9 @@
 
     position: absolute;
 
-    /* background: red; */
-
     margin-top: 350px;
+
+    font-family: 'outfit',sans-serif;
 
 }
 
@@ -45,13 +45,11 @@
 
     display: flex;
 
-    justify-content: center;
+    flex-direction: column;
 
-    align-items: center;
+    font-size: 25px;
 
-    font-size: 30px;
-
-    font-weight: 900;
+    color: #d2d2d2c0;
 
 
 }
@@ -60,8 +58,13 @@
 .child1:hover,
 .child2:hover,
 .child3:hover {
-    border-color: rgba(0, 98, 255, 0.632); /* blue-500/40 */
-    box-shadow: 0 25px 50px -12px rgba(59, 131, 246, 0.395); /* shadow-2xl blue-500/20 */
+
+    box-shadow: 0 25px 50px -12px rgba(59, 131, 246, 0.395);
+
+    border-color: rgba(0, 98, 255, 0.632);
+
+    color: #fff;
+
   }
 
 
@@ -81,19 +84,19 @@
 
     cursor: pointer;
 
-    backdrop-filter: blur(20px); /* Tailwind's xl blur is around 20px */
+    backdrop-filter: blur(20px);
+
     overflow: hidden;
+
     transition: all 0.3s ease;
 
     display: flex;
 
-    justify-content: center;
+    flex-direction: column;
 
-    align-items: center;
+    font-size: 25px;
 
-    font-size: 30px;
-
-    font-weight: 900;
+    color: #d2d2d2c0;
 
 }
 
@@ -113,18 +116,70 @@
 
     cursor: pointer;
 
-    backdrop-filter: blur(20px); /* Tailwind's xl blur is around 20px */
+    backdrop-filter: blur(20px);
+
     overflow: hidden;
+
     transition: all 0.3s ease;
 
     display: flex;
 
-    justify-content: center;
+    flex-direction: column;
 
-    align-items: center;
+    font-size: 25px;
 
-    font-size: 30px;
+    color: #d2d2d2c0;
 
-    font-weight: 900;
+}
+
+.head1,
+.head2,
+.head3 {
+
+    display: flex;
+
+    margin-top: 35px;
+
+    margin-left: 25px;
+
+    color: #fff;
+
+}
+
+.head1 h3,
+.head2 h3,
+.head3 h3 {
+
+    font-size: 35px;
+
+    font-weight: 600;
+
+    letter-spacing: 1.5px;
+}
+
+.child1Content p,
+.child2Content p,
+.child3Content p {
+
+    margin-top: 30px;
+
+    font-size: 20px;
+
+    letter-spacing: 1px;
+
+    line-height: 30px;
+
+    width: 370px;
+
+    margin-left: 13px;
+
+
+}
+
+
+
+.span {
+
+    color: #3db5ff;
 
 }
