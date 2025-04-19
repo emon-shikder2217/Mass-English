@@ -1,4 +1,5 @@
 import "./Courses.css";
+import { FaArrowLeft } from "react-icons/fa";
 
 const Courses = () => {
   return (
@@ -6,7 +7,7 @@ const Courses = () => {
       <body>
         <div className="overlayEffect">
           <button className="backArrow">
-            <img src="" alt="arr" />
+          <FaArrowLeft />
           </button>
           <h1 className="courseTitle">Course Not Available right Now</h1>
         </div>
