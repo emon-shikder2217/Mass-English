@@ -1,4 +1,9 @@
+import { BsBookFill } from "react-icons/bs";
+import { FaMicrophoneAlt } from "react-icons/fa";
+import { GoGoal } from "react-icons/go";
 import './container.css';
+
+
 
 const Container = () => {
   return (
@@ -6,7 +11,9 @@ const Container = () => {
       <div className="parent">
         <div className='child1'>
           <div className="head1">
-            <img src="" alt="logo" />
+            <div className="bookIcon">
+              <BsBookFill />
+            </div>
             <h3>English  <span className='span'>Grammer</span></h3>
           </div>
           <div className="child1Content">
@@ -16,7 +23,9 @@ const Container = () => {
         </div>
         <div className='child2'>
         <div className="head2">
-            <img src="" alt="logo" />
+            <div className="micIcon">
+            <FaMicrophoneAlt />
+            </div>
             <h3>English  <span className='span'>Spoken</span></h3>
           </div>
           <div className="child2Content">
@@ -25,7 +34,9 @@ const Container = () => {
         </div>
         <div className='child3'>
         <div className="head2">
-            <img src="" alt="logo" />
+            <div className="goalIcon">
+            <GoGoal />
+            </div>
             <h3>IELTS  <span className='span'>Practice</span></h3>
           </div>
           <div className="child2Content">

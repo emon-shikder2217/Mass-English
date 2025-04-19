@@ -138,11 +138,17 @@
 
     display: flex;
 
-    margin-top: 35px;
+    margin-top: 32px;
 
     margin-left: 25px;
 
     color: #fff;
+
+}
+
+.head1 {
+
+    margin-left: 15px;
 
 }
 
@@ -155,6 +161,10 @@
     font-weight: 600;
 
     letter-spacing: 1.5px;
+
+    margin-left: 10px;
+
+    margin-top: 9px;
 }
 
 .child1Content p,
@@ -179,6 +189,45 @@
 
 
 .span {
+
+    color: #3db5ff;
+
+}
+
+.bookIcon,
+.goalIcon,
+.micIcon {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 55px;
+
+    width: 63px;
+
+    margin-top: 7px;
+
+    border: 0.8px solid #3db5ff;
+
+    border-radius: 10px;
+
+    color: rgba(194, 82, 255, 0.808);
+
+    font-size: 30px;
+
+    background: rgba( 255, 255, 255, .09 );
+
+    transition: 0.3s ease;
+
+}
+
+
+.bookIcon:hover,
+.goalIcon:hover,
+.micIcon:hover {
 
     color: #3db5ff;
 

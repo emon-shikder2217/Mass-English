@@ -1,8 +1,12 @@
-import './About.css';
+import "./About.css";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div className="about-container">
+      <div className="about-overlay"></div>
+      <div className="aboutTutor"></div>
+      <div className="aboutCoaching"></div>
+    </div>
+  );
+};
 export default About;
