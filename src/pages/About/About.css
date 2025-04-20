@@ -10,4 +10,59 @@
 
     flex-direction: column;
 
+    position: relative;
+
  }
+
+
+ .about-container::before {
+
+   content: "";
+
+   position: absolute;
+
+   height: 0;
+
+   width: 20%;
+
+   box-shadow: 
+     0 0 400px 20px #008be1,
+     0 0 350px 22px #49066E,
+     0 0 450px 24px #008be1,
+     0 0 500px 26px #008be1;
+
+   opacity: 0.3;
+
+   top: 30%;
+
+   left: 40%;
+
+   pointer-events: none;
+
+}
+
+.about-container::after {
+
+   position: absolute;
+
+   content: "";
+
+   height: 0;
+
+   width: 100%;
+
+   box-shadow: 
+     0 0 400px 20px #008be1,
+     0 0 350px 22px #49066E,
+     0 0 450px 24px #008be1,
+     0 0 500px 26px #008be1;
+
+   bottom: 100%;
+
+   opacity: 0.3;
+
+   right: 80%;
+
+   pointer-events: none;
+
+}
