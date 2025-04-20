@@ -1,0 +1,20 @@
+
+
+.aboutCoaching {
+
+    height: 650px;
+
+    width: 85%;
+
+    margin-top: 880px;
+    
+    margin-left: 120px;
+
+    background: rgba( 255, 255, 255, 0.08 );
+
+    border: 0.8px solid rgba( 255, 255, 255, 0.5 );
+
+    position: absolute;
+
+    border-radius: 12px;
+}
