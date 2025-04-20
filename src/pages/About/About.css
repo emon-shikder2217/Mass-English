@@ -53,13 +53,13 @@
 
  .aboutTutor {
 
-    height: 620px;
+    height: 680px;
 
     width: 90%;
 
     position: absolute;
 
-    margin-top: 100px;
+    margin-top: 150px;
 
     margin-left: 75px;
 
@@ -73,9 +73,119 @@
 
  }
 
+
+
+  .tutorHeading {
+
+    text-align: center;
+
+    font-size: 70px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    font-family: 'outfit', sans-serif;
+
+    margin-top: 18px;
+
+    position: relative;
+
+    overflow-y: hidden;
+    
+  }
+
+
+  .tutorHeading::before {
+
+    content: '';
+
+    position: absolute;
+  
+    bottom: -0.2rem;
+  
+    width: 40%;
+  
+    height: 5px;
+
+    left: 30%;
+  
+    background: linear-gradient( to right, transparent, #008be1, transparent );
+
+  
+  }
+  
+
+
+
+
+
+.backArrowAbout {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 4rem;
+
+  width: 5rem;
+
+  border: 0.8px solid #008be1;
+
+  border-radius: 8px;
+
+  background: rgba(255, 255, 255, 0.2);
+
+  margin: 2rem;
+
+  font-size: 2rem;
+
+  color: #008be1;
+
+  text-decoration: none;
+
+  position: absolute;
+
+  z-index: 1;
+
+  transition: all 0.2s ease;
+
+}
+
+
+.backArrowAbout:hover {
+
+  background: rgba(255, 255, 255, 0.3);
+
+  border-color: #00aaff;
+
+  transform: scale(1.05);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .aboutCoaching {
 
-    height: 620px;
+    height: 680px;
 
     width: 90%;
 

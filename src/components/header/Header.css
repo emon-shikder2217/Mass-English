@@ -113,7 +113,46 @@ nav a {
 
     cursor: pointer;
 
+    position: relative;
+
+    overflow: hidden;
+
+    line-height: 60px;
+
 }
+
+nav a::after {
+
+    position: absolute;
+
+    content: '';
+
+    height: 2px;
+
+    width: 0%;
+
+    background: linear-gradient( to right, transparent, #008be1, transparent );
+
+    left: 50%;
+
+    top: 48px;
+
+    transition: 0.4s;
+
+    transform: translateX(-50%);
+
+    border-radius: 6px;
+
+}
+
+nav a:hover:after {
+
+    width: 130%;
+
+}
+
+
+
 
 nav a:hover {
 
