@@ -1,9 +1,6 @@
 
 .about-overlay {
 
-    
- 
-
     width: 100%;
   
     height: 100%;
@@ -37,7 +34,7 @@
   
    }
   
-  
+
    .aboutTutor {
   
       height: 650px;
@@ -212,6 +209,10 @@
     grid-column-gap: 40px;
   
     grid-row-gap: 0px;
+
+    padding: 20px;
+
+    box-sizing: border-box;
   
     }
   
@@ -387,4 +388,31 @@
   }
   
   
-  
+  @media (max-width: 768px) {
+    .tutorInfo {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+
+    .tutorImgContainer {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .tutorTxt {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .tutorInfo {
+        padding: 10px;
+        grid-row-gap: 15px;
+    }
+
+    .tutorImgContainer, .tutorTxt {
+        min-height: 150px;
+    }
+}

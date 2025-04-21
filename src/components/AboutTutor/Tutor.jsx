@@ -4,15 +4,14 @@ import mentor from "../../assets/mentor.png";
 import facebook from "../../assets/facebook.png";
 import ig from "../../assets/ig.png";
 import x from "../../assets/x.png";
-import './Tutor.css';
-
+import "./Tutor.css";
 
 const Tutor = () => {
   return (
     <>
-    <div className="about-overlay"></div>
+      <div className="about-overlay"></div>
       <Link to="/" className="backArrowAbout">
-      <FaArrowLeftLong />
+        <FaArrowLeftLong />
       </Link>
       <div className="aboutTutor">
         <div className="tutorTitle">
@@ -23,7 +22,9 @@ const Tutor = () => {
             <img src={mentor} className="tutorImage" alt="Mentor" />
           </div>
           <div className="tutorTxt">
-            <h2 className="name">Hey there! I'm Belal Hossain.</h2>
+            <h2 className="name">
+              Hey there! I'm <span className="span">Belal Hossain.</span>
+            </h2>
             <p className="tutorInfoTxt">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusantium, molestiae error. Distinctio velit inventore porro
@@ -61,7 +62,6 @@ const Tutor = () => {
         </div>
       </div>
     </>
-    
-  )
-}
-export default Tutor
+  );
+};
+export default Tutor;
