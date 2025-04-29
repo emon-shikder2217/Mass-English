@@ -10,7 +10,7 @@ const Coaching = () => {
       <div className="about-overlayC"></div>
       <div className="aboutCoaching">
         <div className="coachingTitle">
-          <h1 className="coachingHeading">About Coaching</h1>
+          <h1 className="coachingHeading">About Academy</h1>
         </div>
         <div className="coachingInfo">
           <div className="coachingImgContainer">

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
     <header>
-      <h1 className="navbar_logo" data-aos="zoom-in" data-aos-duration="1000">
+      <h1 className="navbar_logo" data-aos="fade-right" data-aos-duration="1000">
         MASS ENGLISH
       </h1>
 

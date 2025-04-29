@@ -15,7 +15,7 @@ const Tutor = () => {
       </Link>
       <div className="aboutTutor">
         <div className="tutorTitle">
-          <h1 className="tutorHeading">About Tutor</h1>
+          <h1 className="tutorHeading">About Mentor</h1>
         </div>
         <div className="tutorInfo">
           <div className="tutorImgContainer">
@@ -39,7 +39,7 @@ const Tutor = () => {
             <div className="line"></div>
 
             <div className="socialMediaTutor">
-              <a href="https://www.facebook.com/belal.hossain.797444">
+              <a href="https://www.facebook.com/belal.hossain.797444" target="_blank">
                 <div className="fb">
                   <img src={facebook} alt="" />
                   <p>Facebook</p>
