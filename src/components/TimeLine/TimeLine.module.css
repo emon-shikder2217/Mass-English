@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f1123;
+    color: white;
+  }
+  
+  .timelineContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+  
+  .timeline {
+    width: 50%;
+    position: relative;
+    padding-left: 40px;
+    border-left: 2px solid #4e7fff;
+  }
+  
+  .timelineItem {
+    position: relative;
+    margin-bottom: 60px;
+  }
+  
+  .circle {
+    width: 306px;
+    height: 306px;
+    background-color: #0f1123;
+    border: 15px solid #4e7fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -60px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4e7fff;
+    font-size: 18px;
+  }
+  
+  .textContent {
+    margin-left: 30px;
+  }
+  
+  .textContent h3 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .textContent p {
+    color: #ccc;
+    font-size: 0.95rem;
+  }
+  
+  .timelineImage {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timelineImage img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
