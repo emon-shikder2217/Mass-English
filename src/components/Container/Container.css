@@ -23,6 +23,30 @@
 }
 
 
+.parent::before {
+
+    position: absolute;
+    
+    content: '';
+
+    width: 10%;
+
+    height: 0;
+
+    box-shadow: 0 0 800px 25px #008be1,
+    0 0 700px 26px #49066E,
+    0 0 900px 28px #008be1,
+    0 0 1000px 30px #008be1;
+
+    opacity: .3;
+
+    right: 99%;
+
+    top: 90%;
+
+}
+
+
 .child1 {
 
     height: 300px;
@@ -53,6 +77,8 @@
 
 
 }
+
+
 
 
 .child1:hover,

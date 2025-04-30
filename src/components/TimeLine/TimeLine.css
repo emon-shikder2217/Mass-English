@@ -1,0 +1,33 @@
+
+
+ .timeLine-section {
+
+    min-height: 100vh;
+
+    background: #0c0c0c;
+
+    position: relative;
+
+ }
+
+
+.timeLine-section::before {
+
+    position: absolute;
+    
+    content: '';
+
+    width: 10%;
+
+    height: 0;
+
+    box-shadow: 0 0 800px 25px #008be1,
+    0 0 700px 26px #49066E,
+    0 0 900px 28px #008be1,
+    0 0 1000px 30px #008be1;
+
+    opacity: 0.3;
+    
+    right: 99%;
+
+}
