@@ -70,6 +70,8 @@
 
     -webkit-text-fill-color: transparent;
 
+    letter-spacing: 3px;
+
  }
 
 
@@ -153,7 +155,7 @@
 
   .insLine {
 
-    width: 2.5px;
+    width: 2.3px;
 
     height: 100%;
 
@@ -161,7 +163,7 @@
 
     grid-area: 1 / 2 / 2 / 3;
 
-    margin-left: 250px;
+    margin-left: 190px;
 
   }
 
@@ -176,8 +178,21 @@
 
     color: #fff;
 
-    width: 100%;
+    width: 80%;
 
-    margin-left: 40px;
+    margin-left: 80px;
+
+  }
+
+  .insContent p {
+
+    font-size: 19px;
+
+    letter-spacing: 2px;
+
+    margin-top: 15px;
+
+    color: #e8e8e8d2;
+
 
   }
