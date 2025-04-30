@@ -7,8 +7,8 @@
   }
  
   ::-webkit-scrollbar-thumb {
- 
-    background: linear-gradient(#008be1, transparent);
+
+    background: linear-gradient( transparent, #008be1 );
  
     border-radius: 8px;
     

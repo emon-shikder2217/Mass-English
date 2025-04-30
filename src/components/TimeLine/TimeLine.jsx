@@ -5,17 +5,17 @@ import timeLineImg from "../../assets/timeline-img.png";
 const TimeLine = () => {
   const timelineData = [
     {
-      title: "Interactive Live & Recording Classes",
+      title: "Chance Of Falling Behind",
       description:
         "Learn Something New Everyday By Watching Recorded Conceptual Classes And Join Live Classes For Clearing Your Doubts.",
     },
     {
-      title: "Module Based Study Plan",
+      title: " do eiusmod tempor incididunt",
       description:
         "There Is No Chance Of Falling Behind, With A Module-Wise Structured Study Plan Packed With Quizzes, Assignments & Practice Home Work For Interview Preparation.",
     },
     {
-      title: "Conceptual Crash Course",
+      title: "tempor incididunt ut labore",
       description:
         "You Are Not Just Enrolling In One Course. It's A Mission To Learn Lifelong Programming Journey With Hablu Programmer.",
     },

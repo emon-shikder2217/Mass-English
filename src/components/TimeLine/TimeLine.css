@@ -57,10 +57,34 @@
 
     white-space: pre;
 
+    background: linear-gradient(to right, #008be1 10%, #d1412b 100%);
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
  }
 
 
+  .timeLineTitle h1::before {
 
+    content: '';
+
+    position: absolute;
+    
+    height: 1.5px;
+
+    width: 45%;
+
+    background: linear-gradient(45deg, transparent, #008be1, transparent);
+
+    top: 260px;
+
+    left: 450px;
+
+  }
 
 
 
@@ -75,6 +99,8 @@
     grid-column-gap: 20px;
 
     grid-row-gap: 0px;
+    
+    margin-top: 100px;
 
 
  }
@@ -84,6 +110,10 @@
  .timeLineImg {
      
      grid-area: 1 / 2 / 2 / 3;
+
+     margin-top: 200px;
+
+     pointer-events: none;
      
     }
     
@@ -98,63 +128,78 @@
     }
 
 
-    .timeline-end {
-        position: relative;
-        margin-top: -40px;
-        margin-left: 9px;
-        width: 28px;
-        height: 28px;
-        background-color: #0a0f2c;
-        border: 2px solid #00c853; /* green border */
-        border-radius: 50%;
-        color: #00c853;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1;
-        font-size: 18px;
-      }
-
       
 
  .timeline-container {
+
     width: 90%;
+
     max-width: 800px;
+
     margin: 60px auto;
+
     position: relative;
+
     padding-left: 40px;
+
     overflow-y: hidden;
+
   }
   
   .timeline-container::before {
+
     content: '';
+
     position: absolute;
+
     left: 62px;
+
     top: 0;
+
     width: 2px;
+
     height: 100%;
-    background-color: #407bff;
+
+    background-color: #008be1;
+
   }
   
+
   .timeline-item {
+
     position: relative;
+
     margin-bottom: 60px;
+
     padding-left: 40px;
+
   }
   
   .timeline-icon {
+
     position: absolute;
-    left: 1px;
+
+    left: -1px;
+
     width: 50px;
+
     height: 50px;
     background-color: #0a0f2c;
-    border: 2px solid #407bff;
+
+    border: 2px solid #008be1;
+
     border-radius: 50%;
-    color: #407bff;
+
+    color: #008be1;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
-    font-size: 18px;
+
+    font-size: 32px;
+
   }
   
 
@@ -168,42 +213,144 @@
 
     border-radius: 10px;
 
-    height: 140px;
+    height: 190px;
 
     width: 570px;
 
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+    color: #e6e6e6da;
+
+    position: relative;
+
   }
 
-  .timeline-content h3 {
+
+  .timeline-content::before {
+
+    position: absolute;
+
+    content: '';
+
+    height: 0;
+
+    width: 20%;
+  
+    box-shadow: 0 0 800px 25px #008be1,
+                0 0 700px 26px #49066E,
+                0 0 900px 28px #008be1,
+                0 0 1000px 30px #008be1;
+  
+  
+    opacity: 0.3;
+
+    left: 50%;
+
+    top: 80%;
+
+  }
+
+
+
+
+  .timeline-content:hover {
+    
+    color: #fff;
+
+    transform: scale(0.98);
+
+  }
+
+
+
+  .timeline-content h2 {
+
     margin: 0;
-    font-size: 18px;
+
+    font-size: 25px;
+
     font-weight: bold;
+
     color: white;
+
+    margin-top: 12px;
+
+    position: relative;
+
+    line-height: 45px;
+
+    margin-left: 12px;
+    
+
+  }
+
+
+  .timeline-content h2::before {
+
+    content: '';
+
+    position: absolute;
+    
+    height: 2.1px;
+
+    width: 45%;
+
+    background: linear-gradient(45deg, #008be1, transparent);
+
+    top: 42px;
+
+
   }
   
+
   .timeline-content p {
-    margin-top: 10px;
-    font-size: 15px;
-    color: #c2c8e2;
+
+    margin-top: 16px;
+
+    font-size: 18px;
+
+    letter-spacing: 0.5px;
+
     line-height: 1.6;
+
+    margin-left: 12px;
+
   }
+
+
 
 
       .timeline-end {
+
         position: relative;
+
         margin-top: -40px;
+
         margin-left: -2px;
         width: 50px;
+
         height: 50px;
+
         background-color: #0a0f2c;
-        border: 2px solid #00c853; /* green border */
+
+        border: 2px solid #00c853;
+
         border-radius: 50%;
+
         color: #00c853;
+
         display: flex;
+
         align-items: center;
+
         justify-content: center;
+
         z-index: 1;
+
         font-size: 18px;
+
       }
 
 

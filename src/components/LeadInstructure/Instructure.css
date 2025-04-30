@@ -1,0 +1,183 @@
+
+
+
+ .leadInstructure {
+
+    min-height: 100vh;
+
+    background: #0c0c0c;
+
+    position: relative;
+
+    font-family: 'outfit', sans-serif;
+
+ }
+
+ .leadInstructure::before {
+
+    position: absolute;
+
+    content: '';
+
+    height: 0;
+
+    width: 20%;
+
+    box-shadow: 0 0 800px 25px #008be1,
+    0 0 700px 26px #49066E,
+    0 0 900px 28px #008be1,
+    0 0 1000px 30px #008be1;
+
+    opacity: 0.3;
+
+    rotate: -30deg;
+    
+    top: 60%;
+
+    left: -20%;
+
+ }
+
+
+ .insTitle {
+
+    display: flex;
+
+    justify-content: center;
+
+    text-align: center;
+
+    margin-top: 50px;
+
+ }
+
+
+ .insTitle h1 {
+
+    font-size: 62px;
+
+    font-family: 'outfit', sans-serif;
+
+    font-weight: 700;
+
+    white-space: pre;
+
+    background: linear-gradient(to right, #008be1 10%, #d1412b 100%);
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+ }
+
+
+ 
+ .insTitle h1::before {
+
+    content: '';
+
+    position: absolute;
+    
+    height: 1.5px;
+
+    width: 45%;
+
+    background: linear-gradient(45deg, transparent, #008be1, transparent);
+
+    top: 140px;
+
+    left: 450px;
+
+  }
+
+
+  .instrucutreContainer {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+     grid-template-rows: 1fr;
+
+    grid-column-gap: 0px;
+
+    grid-row-gap: 0px;
+    
+    margin-top: 100px;
+
+  }
+
+  .insImg {
+
+    height: 400px;
+  
+    width: 400px;
+  
+    border-radius: 20px;
+  
+    position: relative;
+  
+    margin-top: 30px;
+  
+    margin-left: 160px;
+
+    margin-bottom: 20px;
+  
+    border: 3px solid #008be1;
+
+    pointer-events: none;
+
+    grid-area: 1 / 1 / 2 / 2;
+
+    cursor: pointer;
+
+  }
+
+
+  .instructureImg {
+
+    max-width: 100%;
+  
+    max-height: 100%;
+  
+    object-fit: cover;
+  
+    pointer-events: none;
+  
+    position: absolute;
+
+  }
+
+
+  .insLine {
+
+    width: 2.5px;
+
+    height: 100%;
+
+    background: linear-gradient( 45deg, transparent, #008be1);
+
+    grid-area: 1 / 2 / 2 / 3;
+
+    margin-left: 250px;
+
+  }
+
+
+
+
+
+
+  .insContent {
+
+    grid-area: 1 / 3 / 2 / 4;
+
+    color: #fff;
+
+    width: 100%;
+
+    margin-left: 40px;
+
+  }
