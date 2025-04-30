@@ -12,3 +12,21 @@
     font-family: 'outfit', sans-serif;
 
  }
+
+ .p {
+
+   font-size: 19px;
+
+   color: #d3d3d3;
+
+   font-family: 'outfit', sans-serif;
+
+   margin-top: 20px;
+
+   letter-spacing: 1px;
+
+   display: flex;
+
+   justify-content: center;
+
+ }
