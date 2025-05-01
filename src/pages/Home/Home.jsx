@@ -5,6 +5,7 @@ import Review from '../../components/ReviewPage/Review';
 import Timeline from '../../components/TimeLine/TimeLine';
 import Footer from '../../components/Footer/Footer';
 import './Home.css';
+import Faq from '../../components/Faq/Faq';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
                 <Timeline />
                 <Instructure />
                 <Review />
+                <Faq />
                 <Footer />
             </div>
         </>
