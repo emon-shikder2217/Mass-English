@@ -51,7 +51,7 @@
 
   height: 600px;
 
-  width: 400px;
+  width: 420px;
 
   background: rgba( 255, 255, 255, .05 );
 
@@ -69,13 +69,19 @@
 
   overflow-y: hidden;
 
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
 
  }
+
+
  .reviewCard-2 {
 
   height: 550px;
 
-  width: 400px;
+  width: 420px;
 
   background: rgba( 255, 255, 255, .05 );
 
@@ -93,14 +99,20 @@
 
   overflow-y: hidden;
 
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
 
  }
+
+
 
  .reviewCard-3 {
 
   height: 500px;
 
-  width: 400px;
+  width: 420px;
 
   background: rgba( 255, 255, 255, .05 );
 
@@ -118,9 +130,20 @@
 
   overflow-y: hidden;
 
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
 
  }
 
+ .reviewCard-1:hover,
+ .reviewCard-2:hover,
+ .reviewCard-3:hover {
+
+  transform: scale(0.99);
+
+ }
 
  .student_img {
 
