@@ -87,6 +87,14 @@
       position: relative;
   
       overflow-y: hidden;
+
+      background: linear-gradient(to right, #008be1 10%, #d1412b 100%);
+
+      background-clip: text;
+  
+      -webkit-background-clip: text;
+  
+      -webkit-text-fill-color: transparent;
       
     }
   
