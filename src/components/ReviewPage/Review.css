@@ -3,7 +3,7 @@
  .review {
 
     
-    min-height: 100vh;
+    min-height: 130vh;
 
     background: #0c0c0c;
 
@@ -28,5 +28,170 @@
    display: flex;
 
    justify-content: center;
+
+   text-align: center;
+
+ }
+
+
+ .reviewCardContainer {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  margin-top: 70px;
+
+  justify-content: center;
+
+ }
+
+
+ .reviewCard-1 {
+
+  height: 600px;
+
+  width: 400px;
+
+  background: rgba( 255, 255, 255, .05 );
+
+  border: 0.5px solid rgba( 255, 255, 255, 0.2 );
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+  border-radius: 10px;
+
+  margin-right: 30px;
+
+  overflow-y: hidden;
+
+
+ }
+ .reviewCard-2 {
+
+  height: 550px;
+
+  width: 400px;
+
+  background: rgba( 255, 255, 255, .05 );
+
+  border: 0.5px solid rgba( 255, 255, 255, 0.2 );
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+  border-radius: 10px;
+
+  margin-left: 40px;
+
+  overflow-y: hidden;
+
+
+ }
+
+ .reviewCard-3 {
+
+  height: 500px;
+
+  width: 400px;
+
+  background: rgba( 255, 255, 255, .05 );
+
+  border: 0.5px solid rgba( 255, 255, 255, 0.2 );
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+  border-radius: 10px;
+
+  margin-left: 60px;
+
+  overflow-y: hidden;
+
+
+ }
+
+
+ .student_img {
+
+  width: 50px;
+
+  height: 50px;
+
+  pointer-events: none;
+
+ }
+
+ .star {
+
+  width: 180px;
+
+  height: 40px;
+
+  pointer-events: none;
+
+ }
+
+
+ .student-i {
+
+  display: flex;
+
+  margin-top: 20px;
+
+  margin-left: 15px;
+
+ }
+
+ .nn {
+
+  display: flex;
+
+  flex-direction: column;
+
+  height: 120px;
+
+ }
+
+ .studentName {
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  color: #008be1;
+
+  font-family: 'outfit', sans-serif;
+
+  margin-left: 8px;
+
+  margin-top: 5px;
+
+ }
+
+
+ .reviewTxt {
+
+  margin-bottom: 1200rem;
+
+  font-size: 22px;
+
+  color: #d2d2d2dc;
+
+  padding: 20px;
+
+  line-height: 26px;
+
+  letter-spacing: 0.5px;
 
  }
