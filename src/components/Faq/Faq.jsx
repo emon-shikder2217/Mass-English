@@ -45,7 +45,7 @@ function Faq() {
 
   return (
     <section className="faq-section">
-      <h1 className="faqTitle">FREQUENTLY ASKED QUESTIONS</h1>
+      <h1 className="faqTitle">FREQUENTLY ASKED <br /> QUESTIONS</h1>
       <ul className="faq">
         {faqs.map((faq, index) => (
           <li

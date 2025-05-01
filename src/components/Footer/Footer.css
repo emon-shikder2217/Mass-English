@@ -64,3 +64,259 @@
     background: #008be1;
 
   }
+
+
+  .footerContainer {
+
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      grid-template-rows: 1fr;
+
+      grid-column-gap: 20px;
+
+      grid-row-gap: 0px;
+
+  }
+
+  .footerContainer1 {
+
+    grid-area: 1 / 1 / 2 / 2;
+
+    margin-top: 50px;
+
+    margin-left: 100px;
+
+  }
+
+  .footerContainer2 {
+
+    grid-area: 1 / 2 / 2 / 3;
+
+    margin-top: 40px;
+
+    margin-left: 80px;
+
+  }
+
+  .footerContainer3 {
+
+    grid-area: 1 / 3 / 2 / 4;
+
+    margin-top: 40px;
+
+    margin-left: 20px;
+
+  }
+
+
+.contact_title {
+
+  margin: 0;
+
+  font-size: 32px;
+
+  font-weight: 500;
+
+  color: white;
+
+  position: relative;
+
+  line-height: 45px;
+
+  font-family: 'outfit', sans-serif;
+
+}
+
+.contact_title::before {
+
+  content: '';
+
+  position: absolute;
+  
+  height: 2.1px;
+
+  width: 45%;
+
+  background: linear-gradient(45deg, #008be1, transparent);
+
+  top: 42px;
+
+
+}
+
+.contact_li {
+
+  font-size: 19px;
+
+  letter-spacing: 1px;
+
+  color: #d5d5d5c3;
+
+  transition: 0.3s ease;
+
+  font-family: 'outfit', sans-serif;
+  
+  margin-top: 14px;
+
+  cursor: pointer;
+
+}
+
+.contact_li:hover {
+
+  color: #008be1;
+
+  transform: translateY(-2px);
+
+}
+
+
+
+.important_title {
+
+  margin: 0;
+
+  font-size: 32px;
+
+  font-weight: 500;
+
+  color: white;
+
+  position: relative;
+
+  line-height: 45px;
+
+  font-family: 'outfit', sans-serif;
+
+}
+
+.important_title::before {
+
+  content: '';
+
+  position: absolute;
+  
+  height: 2.1px;
+
+  width: 45%;
+
+  background: linear-gradient(45deg, #008be1, transparent);
+
+  top: 42px;
+
+
+}
+
+
+
+.important_li {
+
+  font-size: 19px;
+
+  letter-spacing: 1px;
+
+  color: #d5d5d5c3;
+
+  transition: 0.3s ease;
+
+  font-family: 'outfit', sans-serif;
+  
+  margin-top: 14px;
+
+  cursor: pointer;
+
+}
+
+.important_li:hover {
+
+  color: #008be1;
+
+  transform: translateY(-2px);
+
+}
+
+
+
+.social_title {
+
+  margin: 0;
+
+  font-size: 32px;
+
+  font-weight: 500;
+
+  color: white;
+
+  position: relative;
+
+  line-height: 45px;
+
+  font-family: 'outfit', sans-serif;
+
+}
+
+.social_title::before {
+
+  content: '';
+
+  position: absolute;
+  
+  height: 2.1px;
+
+  width: 45%;
+
+  background: linear-gradient(45deg, #008be1, transparent);
+
+  top: 42px;
+
+
+}
+
+
+.social_links {
+
+  margin-top: 14px;
+
+}
+
+ .facebook_icon a,
+.x_icon a,
+.whatsapp_icon a {
+
+  text-decoration: none;
+
+  color: #d5d5d5c3;
+
+  font-family: 'outfit', sans-serif;
+
+  font-size: 19px;
+
+  transition: 0.3s ease;
+
+}
+
+.x_icon,
+.whatsapp_icon {
+
+  margin-top: 14px;
+
+}
+
+.link_title {
+
+  margin-left: 2px;
+
+}
+
+ .facebook_icon a:hover,
+.x_icon a:hover,
+.whatsapp_icon a:hover {
+
+  color: #008be1;
+
+  transform: translateY(-2px);
+
+}
+
