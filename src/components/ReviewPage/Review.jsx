@@ -37,7 +37,7 @@ const Review = () => {
       </div>
       <p className="p">
         Our Students Are Our Strength, See What They Say About Us. Learners have
-        always <br /> expressed their love for Hablu-Programmer.
+        always <br /> expressed their love for Mass English.
       </p>
       <div className="reviewCardContainer">
         {reviewData.map((item, index) => (
