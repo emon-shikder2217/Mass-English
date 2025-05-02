@@ -24,3 +24,13 @@
     background: linear-gradient( #8b00d6, transparent );
  
   }
+
+
+  ::selection {
+
+    background: #008be1;
+
+    color: #000000;
+
+  }
+  

@@ -9,6 +9,8 @@ import Faq from '../../components/Faq/Faq';
 
 
 const Home = () => {
+
+    
     return (
         <>
             <Header />
