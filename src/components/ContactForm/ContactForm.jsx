@@ -1,11 +1,13 @@
 import './ContactForm.css';
+import contactImg from '../../assets/contactImg.png';
 
 const ContactForm = () => {
   return (
     <>
       <div className="contactContainerr">
-        
-        <form className="contactForm">
+
+        <div className="contactBox">
+          <form className="contactForm">
           <div className="name">
             <input
               className="name_input"
@@ -39,6 +41,12 @@ const ContactForm = () => {
             </button>
           </div>
         </form>
+        <div className="contactImg">
+          <img src={contactImg} alt="contactImg" />
+        </div>
+        </div>
+        
+        
       </div>
     </>
   );

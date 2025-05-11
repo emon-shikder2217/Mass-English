@@ -12,17 +12,22 @@
 
  }
 
- .contactForm {
 
-    display: flex;
+ .contactBox {
 
-    justify-content: center;
+   display: grid;
 
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
 
-    height: 550px;
+    grid-template-rows: 1fr;
 
-    width: 550px;
+    grid-column-gap: 10px;
+
+    grid-row-gap: 0px;
+
+    height: 570px;
+
+    width: 75%;
 
     flex-direction: column;
 
@@ -36,7 +41,13 @@
 
  }
 
- .contactForm::before {
+ .contactForm {
+
+    grid-area: 1 / 1 / 2 / 2;
+
+ }
+
+ .contactBox::before {
 
     position: absolute;
 
@@ -52,7 +63,7 @@
                 0 0 1000px 30px #008be1;
   
   
-    opacity: 0.4;
+    opacity: 0.3;
 
     left: 40%;
 
@@ -62,3 +73,56 @@
 
  }
 
+.contactBox::after {
+
+       position: absolute;
+
+    content: '';
+
+    height: 0;
+
+    width: 100%;
+  
+    box-shadow: 0 0 800px 30px #d1412b,
+                0 0 700px 32px #d1412b,
+                0 0 900px 35px #d1412b,
+                0 0 1000px 40px #d1412b,
+                0 0 1100px 45px #d1412b,
+                0 0 1200px 50px #d1412b;
+  
+  
+    opacity: .13;
+
+    bottom: 100%;
+
+}
+
+
+.conatctImg {
+
+   grid-area: 1 / 2 / 2 / 3;
+
+   display: flex;
+
+   justify-content: center;
+
+   align-items: center;
+
+
+   
+}
+
+
+.contactImg img {
+
+   margin-top: 40px;
+
+   margin-left: 40px;
+
+   width: 500px;
+
+   height: 500px;
+
+   pointer-events: none;
+
+}
