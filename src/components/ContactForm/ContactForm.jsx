@@ -41,6 +41,7 @@ const ContactForm = () => {
             </button>
           </div>
         </form>
+        <div className="cLine"></div>
         <div className="contactImg">
           <img src={contactImg} alt="contactImg" />
         </div>

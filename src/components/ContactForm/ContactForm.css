@@ -17,13 +17,13 @@
 
    display: grid;
 
-    grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(3, 1fr);
 
-    grid-template-rows: 1fr;
+   grid-template-rows: 1fr;
 
-    grid-column-gap: 10px;
+   grid-column-gap: 0px;
 
-    grid-row-gap: 0px;
+   grid-row-gap: 0px;
 
     height: 570px;
 
@@ -45,7 +45,35 @@
 
     grid-area: 1 / 1 / 2 / 2;
 
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
  }
+
+
+   .cLine {
+
+    width: 2.3px;
+
+    height: 80%;
+
+    background: linear-gradient( 45deg, transparent, #008be1);
+
+    grid-area: 1 / 2 / 2 / 3;
+
+    margin-left: 130px;
+
+    margin-top: 30px;
+
+    min-width: 3px;
+
+  }
+
 
  .contactBox::before {
 
@@ -100,13 +128,17 @@
 
 .conatctImg {
 
-   grid-area: 1 / 2 / 2 / 3;
+   grid-area: 1 / 3 / 2 / 4;
 
    display: flex;
 
    justify-content: center;
 
    align-items: center;
+
+   width: 100%;
+
+   position: relative;
 
 
    
@@ -117,12 +149,49 @@
 
    margin-top: 40px;
 
-   margin-left: 40px;
+   margin-left: -130px;
 
    width: 500px;
 
    height: 500px;
 
    pointer-events: none;
+
+   position: absolute;
+
+}
+
+
+.name,
+.email {
+
+   margin-bottom: 8px;
+
+}
+
+.name_input,
+.email_input {
+
+   width: 400px;
+
+   height: 55px;
+
+   border-radius: 8px;
+
+   background: rgba( 255, 255, 255, .15 );
+
+   border: .5px solid rgba( 255, 255, 255, 0.2 );
+
+   font-size: 18px;
+
+   letter-spacing: 0.5px;
+
+   font-family: 'outfit', sans-serif;
+
+   color: #edededb7;
+
+   outline: none;
+
+   padding-left: 8px;
 
 }
