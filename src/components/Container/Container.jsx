@@ -1,7 +1,7 @@
 import { BsBookFill } from "react-icons/bs";
 import { FaMicrophoneAlt } from "react-icons/fa";
 import { GoGoal } from "react-icons/go";
-import './container.css';
+import './Container.css';
 
 
 
