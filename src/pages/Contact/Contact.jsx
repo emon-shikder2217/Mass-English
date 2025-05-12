@@ -1,4 +1,4 @@
-import { BsBoxArrowLeft } from "react-icons/bs";
+import { FaArrowLeftLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import './Contact.css';
 import ContactForm from "../../components/ContactForm/ContactForm";
@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="contactContainer">
       <div className="contactBgOverlay"></div>
       <Link to="/" className="backArrow">
-        <BsBoxArrowLeft />
+        <FaArrowLeftLong />
       </Link>
       
       <ContactForm />
