@@ -1,6 +1,6 @@
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import './Contact.css';
+import "./Contact.css";
 import ContactForm from "../../components/ContactForm/ContactForm";
 
 const Contact = () => {
@@ -10,9 +10,8 @@ const Contact = () => {
       <Link to="/" className="backArrow">
         <FaArrowLeftLong />
       </Link>
-      
       <ContactForm />
     </div>
-  )
-}
-export default Contact
+  );
+};
+export default Contact;

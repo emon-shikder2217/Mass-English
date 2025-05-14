@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
               <div className="x_icon">
                 <a
-                  href="https://x.com/EmonShikde2217"
+                  href="https://x.com/"
                   target="_blank"
                   className="link_title"
                 >
@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
               <div className="whatsapp_icon">
                 <a
-                  href="https://wa.me/+8801827640863"
+                  href="https://wa.me/+880"
                   target="_blank"
                   className="link_title"
                 >

@@ -15,11 +15,7 @@
 
 .contactBox {
 
-  display: grid;
-
-  grid-template-columns: 1fr auto 1fr;
-
-  height: 570px;
+  height: 595px;
 
   width: 75%;
 
@@ -31,8 +27,22 @@
 
   position: relative;
 
+  display: flex;
+
+  flex-direction: column;
+
 }
 
+
+.contactBoxx {
+
+  display: grid;
+
+  grid-template-columns: 1fr auto 1fr;
+
+  margin-top: 15px;
+
+}
 
  .contactForm {
 
@@ -47,6 +57,63 @@
     align-items: center;
 
  }
+
+
+  .contactTitle {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 20px;
+
+ }
+
+
+ .contactHeader {
+
+    font-size: 52px;
+
+    font-family: 'outfit', sans-serif;
+
+    font-weight: 700;
+
+    white-space: pre;
+
+    background: linear-gradient(to right, #008be1 10%, #d1412b 100%);
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    letter-spacing: 2px;
+
+ }
+
+ 
+ .contactHeader::before {
+
+    content: '';
+
+    position: absolute;
+    
+    height: 1.6px;
+
+    width: 55%;
+
+    background: linear-gradient(45deg, transparent, #008be1, transparent);
+
+    top: 90px;
+
+    left: 250px;
+
+  }
+
+
+
+
 
 
 .cLine {
@@ -132,6 +199,8 @@
 
   margin-left: 30px;
 
+  pointer-events: none;
+
 }
 
 
@@ -148,6 +217,8 @@
    pointer-events: none;
 
    position: absolute;
+
+   pointer-events: none;
 
 }
 
