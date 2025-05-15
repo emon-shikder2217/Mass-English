@@ -6,6 +6,7 @@ import Timeline from '../../components/TimeLine/TimeLine';
 import Footer from '../../components/Footer/Footer';
 import './Home.css';
 import Faq from '../../components/Faq/Faq';
+import AnimatedPage from '../../AnimatedPage';
 
 
 const Home = () => {
