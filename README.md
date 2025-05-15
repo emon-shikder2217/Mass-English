@@ -1,7 +1,7 @@
 
 # 📌 Mass English - English Language Academy  
 
-![Demo App](/mass-english/public/readme-ss.png)
+![Demo App](/public/readme-ss.png)
 
 ## 🚀 Live Demo
 Check out my portfolio live here: [https://mass-english.vercel.app]
