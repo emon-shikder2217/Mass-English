@@ -3,7 +3,7 @@
 
 .footer {
     
-  height: 38vh;
+  height: 39vh;
   
     background: #181a1e;
   
@@ -320,3 +320,49 @@
 
 }
 
+
+
+.fbt {
+
+  color: #c7c7c7db;
+
+  font-family: 'outfit', sans-serif;
+
+  font-size: 18px;
+
+  margin-top: 35px;
+
+  display: flex;
+
+  justify-content: center;
+
+  text-align: center;
+
+  letter-spacing: 0.5px;
+
+}
+
+
+
+@media (max-width: 768px) {
+  .footer {
+
+    height: 72vh;
+
+  }
+  .footerContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .footerContainer1,
+  .footerContainer2,
+  .footerContainer3 {
+    grid-area: auto;
+  }
+  .footerContainer1 {
+
+   margin-right: 60px;
+
+  }
+}

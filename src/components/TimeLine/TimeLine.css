@@ -361,3 +361,74 @@
    margin-left: 10px;
 
       }
+
+
+
+      /* Mobile and tablet responsiveness */
+@media screen and (max-width: 1024px) {
+  .timeLineLayout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-top: 60px;
+  }
+
+  .timeLineImg {
+    display: none; /* hide image on smaller screens */
+  }
+
+  .timeLineContent {
+    margin-left: 0;
+    padding: 0 20px;
+    width: 100%;
+
+    overflow-x: hidden;
+  }
+
+  .timeline-container {
+    padding-left: 20px;
+    margin: 40px auto;
+    width: 100%;
+  }
+
+  .timeline-container::before {
+    left: 28px;
+  }
+
+  .timeline-icon {
+    left: -10px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+
+  .timeline-content {
+    width: 250px;
+    height: auto;
+    padding: 15px 10px;
+    margin-left: 10px;
+  }
+
+  .timeline-content h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .timeline-content p {
+    font-size: 16px;
+  }
+
+  .timeline-end {
+    margin-left: -5px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .timeLineTitle h1 {
+    font-size: 35px;
+  }
+
+  .timeLineTitle h1::before {
+    display: none;
+  }
+}
