@@ -3,7 +3,7 @@
 
 .footer {
     
-  height: 39vh;
+  height: 45vh;
   
     background: #181a1e;
   
@@ -330,7 +330,7 @@
 
   font-size: 18px;
 
-  margin-top: 35px;
+  margin-top: 38px;
 
   display: flex;
 
@@ -338,7 +338,21 @@
 
   text-align: center;
 
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
+
+}
+
+
+.hr-b {
+
+  
+    width: 100%;
+
+    height: 0.2px;
+
+    background: #008be18b;
+
+    margin-top: 35px;
 
 }
 

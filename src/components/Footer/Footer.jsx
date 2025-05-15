@@ -72,7 +72,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="hr"></div>
+        <div className="hr-b"></div>
         <p className="fbt">
           Copyright ©2025 Mass-English | All Rights Reserved
         </p>
